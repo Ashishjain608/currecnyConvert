@@ -1,0 +1,13 @@
+.converter {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-gap: 5px;
+  margin: 2rem 3rem;
+}
+
+.source,
+.destination {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
